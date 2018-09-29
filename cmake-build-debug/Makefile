@@ -123,32 +123,32 @@ testing/fast:
 	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/build
 .PHONY : testing/fast
 
-BST.o: BST.cpp.o
+red_black_tree.o: red_black_tree.cpp.o
 
-.PHONY : BST.o
+.PHONY : red_black_tree.o
 
 # target to build an object file
-BST.cpp.o:
-	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/BST.cpp.o
-.PHONY : BST.cpp.o
+red_black_tree.cpp.o:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/red_black_tree.cpp.o
+.PHONY : red_black_tree.cpp.o
 
-BST.i: BST.cpp.i
+red_black_tree.i: red_black_tree.cpp.i
 
-.PHONY : BST.i
+.PHONY : red_black_tree.i
 
 # target to preprocess a source file
-BST.cpp.i:
-	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/BST.cpp.i
-.PHONY : BST.cpp.i
+red_black_tree.cpp.i:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/red_black_tree.cpp.i
+.PHONY : red_black_tree.cpp.i
 
-BST.s: BST.cpp.s
+red_black_tree.s: red_black_tree.cpp.s
 
-.PHONY : BST.s
+.PHONY : red_black_tree.s
 
 # target to generate assembly for a file
-BST.cpp.s:
-	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/BST.cpp.s
-.PHONY : BST.cpp.s
+red_black_tree.cpp.s:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/red_black_tree.cpp.s
+.PHONY : red_black_tree.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... testing"
-	@echo "... BST.o"
-	@echo "... BST.i"
-	@echo "... BST.s"
+	@echo "... red_black_tree.o"
+	@echo "... red_black_tree.i"
+	@echo "... red_black_tree.s"
 .PHONY : help
 
 

@@ -57,38 +57,38 @@ include CMakeFiles/testing.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/testing.dir/flags.make
 
-CMakeFiles/testing.dir/BST.cpp.o: CMakeFiles/testing.dir/flags.make
-CMakeFiles/testing.dir/BST.cpp.o: ../BST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/squintingsmile/CLionProjects/testing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testing.dir/BST.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing.dir/BST.cpp.o -c /Users/squintingsmile/CLionProjects/testing/BST.cpp
+CMakeFiles/testing.dir/red_black_tree.cpp.o: CMakeFiles/testing.dir/flags.make
+CMakeFiles/testing.dir/red_black_tree.cpp.o: ../red_black_tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/squintingsmile/CLionProjects/testing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testing.dir/red_black_tree.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing.dir/red_black_tree.cpp.o -c /Users/squintingsmile/CLionProjects/testing/red_black_tree.cpp
 
-CMakeFiles/testing.dir/BST.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testing.dir/BST.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/squintingsmile/CLionProjects/testing/BST.cpp > CMakeFiles/testing.dir/BST.cpp.i
+CMakeFiles/testing.dir/red_black_tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testing.dir/red_black_tree.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/squintingsmile/CLionProjects/testing/red_black_tree.cpp > CMakeFiles/testing.dir/red_black_tree.cpp.i
 
-CMakeFiles/testing.dir/BST.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testing.dir/BST.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/squintingsmile/CLionProjects/testing/BST.cpp -o CMakeFiles/testing.dir/BST.cpp.s
+CMakeFiles/testing.dir/red_black_tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testing.dir/red_black_tree.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/squintingsmile/CLionProjects/testing/red_black_tree.cpp -o CMakeFiles/testing.dir/red_black_tree.cpp.s
 
-CMakeFiles/testing.dir/BST.cpp.o.requires:
+CMakeFiles/testing.dir/red_black_tree.cpp.o.requires:
 
-.PHONY : CMakeFiles/testing.dir/BST.cpp.o.requires
+.PHONY : CMakeFiles/testing.dir/red_black_tree.cpp.o.requires
 
-CMakeFiles/testing.dir/BST.cpp.o.provides: CMakeFiles/testing.dir/BST.cpp.o.requires
-	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/BST.cpp.o.provides.build
-.PHONY : CMakeFiles/testing.dir/BST.cpp.o.provides
+CMakeFiles/testing.dir/red_black_tree.cpp.o.provides: CMakeFiles/testing.dir/red_black_tree.cpp.o.requires
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/red_black_tree.cpp.o.provides.build
+.PHONY : CMakeFiles/testing.dir/red_black_tree.cpp.o.provides
 
-CMakeFiles/testing.dir/BST.cpp.o.provides.build: CMakeFiles/testing.dir/BST.cpp.o
+CMakeFiles/testing.dir/red_black_tree.cpp.o.provides.build: CMakeFiles/testing.dir/red_black_tree.cpp.o
 
 
 # Object files for target testing
 testing_OBJECTS = \
-"CMakeFiles/testing.dir/BST.cpp.o"
+"CMakeFiles/testing.dir/red_black_tree.cpp.o"
 
 # External object files for target testing
 testing_EXTERNAL_OBJECTS =
 
-testing: CMakeFiles/testing.dir/BST.cpp.o
+testing: CMakeFiles/testing.dir/red_black_tree.cpp.o
 testing: CMakeFiles/testing.dir/build.make
 testing: CMakeFiles/testing.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/squintingsmile/CLionProjects/testing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testing"
@@ -99,7 +99,7 @@ CMakeFiles/testing.dir/build: testing
 
 .PHONY : CMakeFiles/testing.dir/build
 
-CMakeFiles/testing.dir/requires: CMakeFiles/testing.dir/BST.cpp.o.requires
+CMakeFiles/testing.dir/requires: CMakeFiles/testing.dir/red_black_tree.cpp.o.requires
 
 .PHONY : CMakeFiles/testing.dir/requires
 

@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/squintingsmile/CLionProjects/testing/BST.cpp">
+		<Unit filename="/Users/squintingsmile/CLionProjects/testing/red_black_tree.cpp">
 			<Option target="testing"/>
 		</Unit>
 		<Unit filename="/Users/squintingsmile/CLionProjects/testing/CMakeLists.txt">
