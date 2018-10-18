@@ -2,11 +2,12 @@
 
 template <typename T, typename U>
 class red_black_tree{
+private:
     typedef T key_type;
     typedef U val_type;
     const bool red = true;
     const bool black = false;
-    int size;
+    int size = 0;
 
     class node{
     public:
@@ -48,32 +49,51 @@ class red_black_tree{
         return x;
     }
 
-    node *insert_single_two_node(node *nd){
-        if (size == 1){
-            if (nd->key < root->key) {
-                root->left = nd;
-                nd->color = red;
-                return nd;
-            }
-            if (nd->key > root->key){
-                root->right = nd;
-                root = rotate_left(root);
-                return root;
-            }
-        }
-        return nullptr;
-    }
-
-    node *insert_bottom_two_node(node *nd){
-        
+    void flip_colors(node* nd){
+        nd->right->color = black;
+        nd->left->color = black;
+        nd->color = red;
     }
 
 public:
+
     node *root = nullptr;
     explicit red_black_tree(node *nd) : root(nd), size(1) {}
 
-    node *insert(){
+    red_black_tree(key_type key, val_type val) : size(1) {}
 
+    void insert(key_type key, val_type val){
+        root = insert(root, key, val);
+        root->color = black;
+    }
+
+    node *insert(node *nd, key_type key, val_type val){
+        if (nd == nullptr)
+            return new node(key, val, red);
+
+        if (key < nd->key)
+            nd->left = insert(nd->left, key, val);
+        if (key > nd->key)
+            nd->right = insert(nd->right, key, val);
+        if (key == nd->key)
+            nd->val = val;
+
+        if (is_red(nd->right) && !is_red(nd->left))
+            nd = rotate_left(nd);
+        if (is_red(nd->left) && is_red(nd->left->left))
+            nd = rotate_right(nd);
+        if (is_red(nd->left) && is_red(nd->right))
+            flip_colors(nd);
+
+        return nd;
     }
 
 };
+
+int main(){
+    red_black_tree<int, int>::node *nd = new red_black_tree<int, int>::node(1, 1, false);
+    red_black_tree<int, int> rbt;
+    rbt.root = nd;
+    rbt.insert(2, 2);
+
+}

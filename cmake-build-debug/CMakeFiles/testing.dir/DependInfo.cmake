@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/squintingsmile/CLionProjects/testing/red_black_tree.cpp" "/Users/squintingsmile/CLionProjects/testing/cmake-build-debug/CMakeFiles/testing.dir/red_black_tree.cpp.o"
+  "/Users/squintingsmile/CLionProjects/testing/quick_sort.cpp" "/Users/squintingsmile/CLionProjects/testing/cmake-build-debug/CMakeFiles/testing.dir/quick_sort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

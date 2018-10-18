@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/squintingsmile/CLionProjects/testing/BST.cpp
+/Users/squintingsmile/CLionProjects/testing/quick_sort.cpp
 iostream
 -
-string
--
 vector
--
-deque
 -
 

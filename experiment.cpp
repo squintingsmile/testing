@@ -1,13 +1,9 @@
 #include <iostream>
+#include <vector>
 
-int *c(int *ptr){
-    ptr = new int(5);
-    std::cout << *ptr << std::endl;
-    return ptr;
-}
 int main(){
-    int m = 10;
-    int *t = &m;
-    c(t);
-    std::cout << *t << std::endl;
+    std::vector<int> vec{1,2,3,4,5,6};
+    for (int i : vec){
+        std::cout << i << std::endl;
+    }
 }

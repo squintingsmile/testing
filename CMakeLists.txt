@@ -3,5 +3,6 @@ project(testing)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES red_black_tree.cpp)
+set(SOURCE_FILES quick_sort.cpp)
+
 add_executable(testing ${SOURCE_FILES})

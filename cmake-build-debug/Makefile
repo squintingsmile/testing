@@ -123,32 +123,32 @@ testing/fast:
 	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/build
 .PHONY : testing/fast
 
-red_black_tree.o: red_black_tree.cpp.o
+quick_sort.o: quick_sort.cpp.o
 
-.PHONY : red_black_tree.o
+.PHONY : quick_sort.o
 
 # target to build an object file
-red_black_tree.cpp.o:
-	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/red_black_tree.cpp.o
-.PHONY : red_black_tree.cpp.o
+quick_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/quick_sort.cpp.o
+.PHONY : quick_sort.cpp.o
 
-red_black_tree.i: red_black_tree.cpp.i
+quick_sort.i: quick_sort.cpp.i
 
-.PHONY : red_black_tree.i
+.PHONY : quick_sort.i
 
 # target to preprocess a source file
-red_black_tree.cpp.i:
-	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/red_black_tree.cpp.i
-.PHONY : red_black_tree.cpp.i
+quick_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/quick_sort.cpp.i
+.PHONY : quick_sort.cpp.i
 
-red_black_tree.s: red_black_tree.cpp.s
+quick_sort.s: quick_sort.cpp.s
 
-.PHONY : red_black_tree.s
+.PHONY : quick_sort.s
 
 # target to generate assembly for a file
-red_black_tree.cpp.s:
-	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/red_black_tree.cpp.s
-.PHONY : red_black_tree.cpp.s
+quick_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/quick_sort.cpp.s
+.PHONY : quick_sort.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... testing"
-	@echo "... red_black_tree.o"
-	@echo "... red_black_tree.i"
-	@echo "... red_black_tree.s"
+	@echo "... quick_sort.o"
+	@echo "... quick_sort.i"
+	@echo "... quick_sort.s"
 .PHONY : help
 
 

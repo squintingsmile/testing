@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/testing.dir/red_black_tree.cpp.o"
+  "CMakeFiles/testing.dir/quick_sort.cpp.o"
   "testing.pdb"
   "testing"
 )
